@@ -1,0 +1,19 @@
+@media (max-width: 450px) {
+  [class*="col-"] {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
+  .panda{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .photo {
+
+    object-fit: cover;
+  }
+
+}

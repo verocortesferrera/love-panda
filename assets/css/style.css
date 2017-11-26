@@ -1,0 +1,147 @@
+/*
+Resetear el navegador
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', sans-serif;
+  color:#fff;
+}
+
+/*
+Crear container
+*/
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row:before, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  max-height: 400px;
+  overflow: hidden;
+
+}
+
+[class*="col-"] {
+  float: left;
+  min-height: 7px;
+  padding: 12px; /* gutters */
+}
+
+/*
+formula para el ancho de las columnas (numero columnas / 12) * 100
+*/
+
+.col-1 {
+  width: 8.333333%;
+  height: 16.666667%;
+}
+
+.col-2 {
+  width: 16.666667%;
+  height: 16.666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333333%;
+}
+
+.col-5 {
+  width: 41.666667%;
+  background-color: #F58E6D;
+
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333333%;
+}
+
+.col-8 {
+  width: 66.666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.333333%;
+}
+
+.col-11 {
+  width: 91.666667%;
+}
+
+.col-12 {
+  width: 100%;
+  text-align: right;
+}
+
+/*MIS ESTILOS HEADER*/
+
+img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  min-height: 100%;
+}
+
+header{
+  background-color: #F58E6D;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+header h1, h5{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*MIS ESTILOS section*/
+
+section{
+  background-color: #ace08c;
+  height: auto;
+  text-align: center;
+  padding: 60px;
+}
+
+.panda{
+  background-color: #F58E6D;
+  padding: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.photo{
+  background-image: url(../img/two.jpg);
+  height: 500px;
+}
+
+.pandita1{
+  height: 200px;
+  border: 6px solid  #fff;
+}
+
+.photo2{
+  background-image: url(../img/tres.jpg);
+  height: 500px;
+}
+
